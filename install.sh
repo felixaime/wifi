@@ -268,8 +268,7 @@ Pi=""
 		echo "You have a Pi CM3+ v1.0"
 		Pi=2
 	else
-		echo "Processor type unknown - you do not appear to be running this script on a Raspberry Pi. Exiting the script"
-		exit 1
+		Pi=4
         fi
 
 	if [[ $kernelcommit == "rpi-update" ]] ; then
