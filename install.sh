@@ -268,6 +268,7 @@ Pi=""
 		echo "You have a Pi CM3+ v1.0"
 		Pi=2
 	else
+	        echo "Unknown Raspberry Pi, let's force its version to 4."
 		Pi=4
         fi
 
